@@ -1,5 +1,4 @@
 import astar
-from camera import Camera
 
 ClientTickEvents = JavaClass("net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents")
 ClientTickEventsEndTick = JavaClass("net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents$EndTick")

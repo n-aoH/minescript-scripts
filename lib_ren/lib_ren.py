@@ -33,7 +33,8 @@ Clazz = JavaClass("java.lang.Class") # type: ignore
 Obj = JavaClass("java.lang.Object") # type: ignore
 
 
-Float = JavaClass("java.lang.Float") # type: ignore
+def Float(number):
+    return number.floatValue()
  
 mc = Minecraft.getInstance()
 
